@@ -1,0 +1,9 @@
+To run the program:
+  python spellcheck.py
+To generate the mistakes:
+  python -g 10
+To pipe the generated mistakes into the program as its inputs
+  python spellcheck.py -g [number] | python spellcheck.py
+
+we define vowels as ['a', 'u', 'o', 'i', 'e']
+
